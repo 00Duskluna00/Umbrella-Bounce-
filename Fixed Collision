@@ -1,0 +1,7 @@
+ if(isAABBcollision(p, sz, p2, sz2)){
+          v.setX(18);
+          v.setY(18);
+          a.setX(0);
+          a.setY(0);
+
+          resolveCollision(p, v, p2);
